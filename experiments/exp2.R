@@ -2,6 +2,10 @@
 df=read.csv("D:\\DS\\docs\\exp2_travellers.csv")
 p=sum(df$Travelledabroad=="Y")/nrow(df)
 
+#p=probability of any one outcome
+#n=total number of trials
+#formula:P(x:n,p) = n!/[x!(n-x)!].p^x.(q)^n-x
+#3628800/[3628800].1.(0.0002719736)
 #2
 d1=dbinom(0,10,p)
 d1
