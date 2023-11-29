@@ -13,9 +13,30 @@ mu = 10000
 n = 50
 
 # Calculate Sample Mean, Sample Standard Deviation from csv file 
-x_bar = mean(df$Life_Hrs)
+x_bar=mean(df$Life_Hrs)
 print(x_bar)
-s = sd(df$Life_Hrs)
+s=sd(df$Life_Hrs)
+
+# Find the Mean (Average):
+#   Mean(μ)=Sum of all valuesNumber of values
+# Mean(μ)=Number of valuesSum of all values​
+# 
+# Calculate the Deviation from the Mean for Each Value:
+#   Deviation=Value−Mean
+# Deviation=Value−Mean
+# 
+# Square Each Deviation:
+#   Squared Deviation=(Deviation)2
+# Squared Deviation=(Deviation)2
+# 
+# Find the Average of the Squared Deviations:
+#   Average Squared Deviation=Sum of Squared DeviationsNumber of values
+# Average Squared Deviation=Number of valuesSum of Squared Deviations​
+# 
+# Take the Square Root:
+#   σ=Average Squared Deviation
+# σ=Average Squared Deviation
+
 print(s)
 
 # Calculate Z value  
